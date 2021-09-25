@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+body {
+    background: linear-gradient(65deg, yellow, rgb(2, 255, 2),yellow, rgb(2, 255, 2), yellow, rgb(2, 255, 2));
+}
+
+#header {
+    background-color: black;
+    height: 70px;    
+}
+#brand{
+    text-align: center;
+    color: white;
+    width: 40%;
+    float: left;
+    line-height: 70px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+#menu {
+    text-align: center;
+    float: right;
+    width: 60%;
+    line-height: 70px;
+}
+
+/* Main Section Styling */
+
+#title {
+    text-align: center;
+    margin-top: 50px;
+}
+#pizza {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#dp {
+    background: linear-gradient(45deg,red, black);
+    width: 40%;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img {
+    border-radius: 25px;
+    box-shadow: 0 0 15px black;
+}
+#burger {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#ff {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#footer {
+    text-align: center;
+    background: black;
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+p {
+    color: black;
+    font-size: large;
+    padding: 10px;
+    font-style: italic;
+}
+
+#pp {
+    color: white;
+}
+
+h2 {
+    color: darkblue;
+}
