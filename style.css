@@ -4,11 +4,34 @@
 body {
     background: linear-gradient(65deg, yellow, rgb(2, 255, 2),yellow, rgb(2, 255, 2), yellow, rgb(2, 255, 2));
 }
+html{
+    scroll-behavior: smooth;
+}
 
 #header {
+    display: flex;
+    position: sticky;
     background-color: black;
-    height: 70px;    
+    height: 70px;
 }
+#header ul li{
+    list-style: none;
+}
+#header ul {
+    display: flex;
+}
+#header ul li a{
+    color: white;
+    display: block;
+    padding: 1px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#header ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
 #brand{
     text-align: center;
     color: white;
